@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   env: {
     browser: true,
     es2021: true
@@ -7,7 +7,7 @@ export default {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-essential",
-    "plugin:prettier/recommended" // 插件约束规范 解决eslint和prettier的冲突问题
+    "plugin:prettier/recommended"
   ],
   overrides: [
     {
