@@ -28,7 +28,8 @@
     }
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "@xui/components": "workspace:^"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.3.0",
