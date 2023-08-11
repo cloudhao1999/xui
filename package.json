@@ -28,8 +28,9 @@
     }
   },
   "dependencies": {
-    "vue": "^3.3.4",
-    "@xui/components": "workspace:^"
+    "@xui/components": "workspace:^",
+    "@xui/theme-chalk": "workspace:^",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.3.0",
@@ -44,6 +45,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.1",
+    "sass": "^1.65.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"

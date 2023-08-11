@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import XButton from "@xui/components/button";
+import "@xui/theme-chalk/src/index.scss";
 import "./style.css";
 import App from "./App.vue";
 
