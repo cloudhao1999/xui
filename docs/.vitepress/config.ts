@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     outlineTitle: '本页目录',
     lastUpdatedText: '上次更新',
-    logo: '../public/logo.svg',
+    logo: '../../public/logo.svg',
     siteTitle: 'XUI基础组件文档',
     search: {
       provider: 'local',
