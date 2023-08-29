@@ -7,13 +7,13 @@ export default defineConfig({
   lang: 'cn-ZH',
   base: '/xui/',
   head: [
-    ['link', { rel: 'icon', href: '../../public/xui/logo.svg' }]
+    ['link', { rel: 'icon', href: 'logo.svg' }]
   ],
   lastUpdated: true,
   themeConfig: {
     outlineTitle: '本页目录',
     lastUpdatedText: '上次更新',
-    logo: '../../public/xui/logo.svg',
+    logo: 'logo.svg',
     siteTitle: 'XUI基础组件文档',
     search: {
       provider: 'local',
