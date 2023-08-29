@@ -2,7 +2,7 @@
 set -e
 
 # 生成静态文件
-yarn run docs:build
+npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vitepress/dist
@@ -12,6 +12,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/cloudhao1999/xui master:gh-pages
+git push -f https://github.com/cloudhao1999/xui main:gh-pages
 
 cd -

@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'XUI基础组件文档',
   description: '一个模仿 ElementUI 的 Vue3 组件库',
   lang: 'cn-ZH',
-  base: '/x-ui/',
+  base: '/',
   lastUpdated: true,
   themeConfig: {
     outlineTitle: '本页目录',
