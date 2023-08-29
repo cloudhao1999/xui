@@ -20,15 +20,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
-      "npm run lint",
-      "prettier --write"
-    ],
-    "*": [
-      "npm run deploy"
-    ]
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
