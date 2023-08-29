@@ -5,7 +5,6 @@ export default defineConfig({
   title: 'XUI基础组件文档',
   description: '一个模仿 ElementUI 的 Vue3 组件库',
   lang: 'cn-ZH',
-  base: '/xui/',
   head: [
     ['link', { rel: 'icon', href: 'logo.svg' }]
   ],
