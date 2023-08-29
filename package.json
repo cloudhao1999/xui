@@ -17,14 +17,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run deploy"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "npm run lint",
-      "prettier --write"
+      "prettier --write",
+      "npm run deploy"
     ]
   },
   "config": {
