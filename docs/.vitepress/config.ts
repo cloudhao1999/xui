@@ -6,11 +6,14 @@ export default defineConfig({
   description: '一个模仿 ElementUI 的 Vue3 组件库',
   lang: 'cn-ZH',
   base: '/xui/',
+  head: [
+    ['link', { rel: 'icon', href: '../../public/xui/logo.svg' }]
+  ],
   lastUpdated: true,
   themeConfig: {
     outlineTitle: '本页目录',
     lastUpdatedText: '上次更新',
-    logo: '../../public/logo.svg',
+    logo: '../../public/xui/logo.svg',
     siteTitle: 'XUI基础组件文档',
     search: {
       provider: 'local',
