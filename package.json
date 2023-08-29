@@ -23,7 +23,9 @@
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
       "npm run lint",
-      "prettier --write",
+      "prettier --write"
+    ],
+    "*": [
       "npm run deploy"
     ]
   },
